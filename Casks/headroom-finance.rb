@@ -1,4 +1,4 @@
-cask "headroom" do
+cask "headroom-finance" do
   arch arm: "arm64", intel: "x64"
 
   version "3.17.2"

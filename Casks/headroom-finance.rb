@@ -18,4 +18,9 @@ cask "headroom-finance" do
   depends_on macos: :ventura
 
   app "Headroom.app"
+
+  caveats <<~EOS
+    Headroom is not signed by Apple, so macOS blocks it when you open it. This can happen again after an upgrade.
+    Open it once, then go to System Settings > Privacy & Security and click Open Anyway.
+  EOS
 end

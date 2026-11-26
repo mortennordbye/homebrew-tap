@@ -1,9 +1,9 @@
 cask "headroom-finance" do
   arch arm: "arm64", intel: "x64"
 
-  version "3.23.0"
-  sha256 arm:   "31e9665f68e85440e39c50406d809c9747b252a3e596d837b3d0dfecaf4d74d0",
-         intel: "0720142752c34bf708db227dbfd6a2f8310b8ebe1f60c161941a4386c6ddb8f3"
+  version "3.24.0"
+  sha256 arm:   "77de1c31b43f1ab6f092970faeb01c88d86c59f659f053d4f65f9c73d46fe4f9",
+         intel: "aab65c7c46b048c7104f7bfb270cef71708612cc895be8052488db0e65cda28c"
 
   url "https://github.com/mortennordbye/headroom/releases/download/v#{version}/Headroom-#{version}-#{arch}.dmg"
   name "Headroom"
